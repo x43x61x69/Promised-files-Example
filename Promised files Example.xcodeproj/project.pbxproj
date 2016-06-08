@@ -11,6 +11,7 @@
 		1FF6D00C1D083C7F00938638 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF6D00B1D083C7F00938638 /* main.m */; };
 		1FF6D00E1D083C7F00938638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF6D00D1D083C7F00938638 /* Assets.xcassets */; };
 		1FF6D0111D083C7F00938638 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF6D00F1D083C7F00938638 /* MainMenu.xib */; };
+		1FF6D01A1D083DB100938638 /* PromisedFilesDropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF6D0191D083DB100938638 /* PromisedFilesDropImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,9 @@
 		1FF6D00D1D083C7F00938638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FF6D0101D083C7F00938638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1FF6D0121D083C7F00938638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF6D0181D083DB100938638 /* PromisedFilesDropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromisedFilesDropImageView.h; sourceTree = "<group>"; };
+		1FF6D0191D083DB100938638 /* PromisedFilesDropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromisedFilesDropImageView.m; sourceTree = "<group>"; };
+		1FF6D01C1D0849FC00938638 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 		1FF6CFFB1D083C7F00938638 = {
 			isa = PBXGroup;
 			children = (
+				1FF6D01C1D0849FC00938638 /* LICENSE */,
 				1FF6D0061D083C7F00938638 /* Promised files Example */,
 				1FF6D0051D083C7F00938638 /* Products */,
 			);
@@ -55,6 +60,7 @@
 			children = (
 				1FF6D0071D083C7F00938638 /* AppDelegate.h */,
 				1FF6D0081D083C7F00938638 /* AppDelegate.m */,
+				1FF6D01B1D08474A00938638 /* Promised Files Drop Image View */,
 				1FF6D00D1D083C7F00938638 /* Assets.xcassets */,
 				1FF6D00F1D083C7F00938638 /* MainMenu.xib */,
 				1FF6D0121D083C7F00938638 /* Info.plist */,
@@ -69,6 +75,15 @@
 				1FF6D00B1D083C7F00938638 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FF6D01B1D08474A00938638 /* Promised Files Drop Image View */ = {
+			isa = PBXGroup;
+			children = (
+				1FF6D0181D083DB100938638 /* PromisedFilesDropImageView.h */,
+				1FF6D0191D083DB100938638 /* PromisedFilesDropImageView.m */,
+			);
+			name = "Promised Files Drop Image View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FF6D00C1D083C7F00938638 /* main.m in Sources */,
+				1FF6D01A1D083DB100938638 /* PromisedFilesDropImageView.m in Sources */,
 				1FF6D0091D083C7F00938638 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +299,7 @@
 				1FF6D0171D083C7F00938638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

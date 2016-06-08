@@ -1,5 +1,5 @@
 //
-//  main.m
+//  PromisedFilesDropImageView.h
 //  Promised files Example
 //
 //  The MIT License (MIT)
@@ -27,6 +27,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, const char * argv[]) {
-    return NSApplicationMain(argc, argv);
-}
+@interface PromisedFilesDropImageView : NSImageView
+
+@end
